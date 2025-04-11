@@ -52,11 +52,7 @@ These can potentially be passed in the `arguments` object for any tool call to o
 
 ## Dependencies
 
-*   [MCP.swift](https://github.com/sourcegraph/managed-capabilities-protocol) (Swift implementation of the MCP protocol)
 *   `MacosUseSDK` (Assumed local or external Swift package providing macOS control functionality)
-*   Swift Standard Library
-*   Foundation
-*   CoreGraphics
 
 ## Building and Running
 
