@@ -9,7 +9,7 @@ let package = Package(
         .macOS(.v13)
     ],
     dependencies: [
-        .package(url: "https://github.com/modelcontextprotocol/swift-sdk.git", from: "0.7.0"),
+        .package(url: "https://github.com/modelcontextprotocol/swift-sdk.git", from: "0.7.1"),
         .package(path: "../MacosUseSDK")
     ],
     targets: [
