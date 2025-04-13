@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "macosusesdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mediar-ai/MacosUseSDK.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1f5c691f15c1f3c1f4bf317c67e5c5337414e477"
+      }
+    },
+    {
       "identity" : "swift-log",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-log.git",

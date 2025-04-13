@@ -6,11 +6,11 @@ import PackageDescription
 let package = Package(
     name: "mcp-server-macos-use",
     platforms: [
-        .macOS(.v13)
+        .macOS(.v13),
     ],
     dependencies: [
         .package(url: "https://github.com/modelcontextprotocol/swift-sdk.git", from: "0.7.1"),
-        .package(path: "../MacosUseSDK")
+        .package(url: "https://github.com/mediar-ai/MacosUseSDK.git", branch: "main"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -19,7 +19,7 @@ let package = Package(
             name: "mcp-server-macos-use",
             dependencies: [
                 .product(name: "MCP", package: "swift-sdk"),
-                .product(name: "MacosUseSDK", package: "MacosUseSDK")
+                .product(name: "MacosUseSDK", package: "MacosUseSDK"),
             ]
         ),
     ]
