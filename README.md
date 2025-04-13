@@ -1,8 +1,13 @@
 # mcp-server-macos-use
 
-This project implements an [MCP (Multi-Capability Protocol)](https://github.com/sourcegraph/managed-capabilities-protocol) server in Swift. It allows controlling macOS applications by leveraging the accessibility APIs, primarily through the `MacosUseSDK`.
+Model Context Protocol (MCP) server in Swift. It allows controlling macOS applications by leveraging the accessibility APIs, primarily through the `MacosUseSDK`.
+
+You can use it in Claude Desktop or other compatible MCP-client.
 
 The server listens for MCP commands over standard input/output (`stdio`) and exposes several tools to interact with applications.
+
+
+https://github.com/user-attachments/assets/b43622a3-3d20-4026-b02f-e9add06afe2b
 
 ## Available Tools
 
